@@ -1,0 +1,33 @@
+body {
+    /* font-family: 'Nunito Sans', sans-serif; */
+
+    /* тут была А Н Н А  Б Л О К */
+}
+
+.header {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.header-logo {
+    /* только после этого появилась картинка */
+    display: block; 
+    background-image: url(../img/Logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 176px;
+    height: 56px;
+
+}
+.header-nav {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0 auto;
+    gap: 20px;
+}
+.header-nav a {
+    text-decoration: none;
+
+    
+}
