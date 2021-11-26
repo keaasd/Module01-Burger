@@ -12,6 +12,7 @@ body {
     padding-top: 26px;
     padding-bottom: 25px; 
 }
+
 .header-logo {
     /* только после этого появилась картинка */
     display: block; 
@@ -22,6 +23,7 @@ body {
     height: 56px;
 
 }
+
 .header-nav {
     list-style-type: none;
     display: flex;
@@ -42,10 +44,9 @@ body {
     content: '';    
     background-color: #FFC725;
 }
-.header-nav a {
-    text-decoration: none;
 
-    
+.header-nav a {
+    text-decoration: none;    
 }
 
 .container {
@@ -54,3 +55,50 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/food.jpg);    
+    color: #fff;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    Width: 1920px;
+    Height: 479px;
+    /* max-width: 1920px; */
+    /* flex: 0 0 49%; */
+}
+h1 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 79px;
+}
+flex: 0 0 49%;
+color: #fff;
+box-sizing: border-box;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+/* .basket {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background: #F66A15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px; */
+}
+/* .main-img {
+    display: block; 
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+      
+} */
