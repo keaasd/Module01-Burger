@@ -67,8 +67,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-image: url(../img/food.jpg);    
+    flex-direction: column;    
+    background-image: url(../img/food.jpg);
     
     color: #fff;
     box-sizing: border-box;
@@ -77,10 +77,14 @@ body {
     background-position: center;
     Width: 100%;
     Height: 479px;
+    
+    
+
     /* Width: 1920px; */
     /* max-width: 1920px; */
     /* flex: 0 0 49%; */
 }
+
 h1 {
     display: block;
     font-family: Nunito Sans;
@@ -103,6 +107,41 @@ h1 {
         width: 1349px;
     }
 }
+@media (max-width: 768px) {
+    .header-nav a {       
+        font-size: 14px;        
+    }
+
+    .menu {
+        max-width: 768px;
+    }
+
+    .menu p {
+        display: block;
+        padding:  auto;
+        justify-content: center;
+        
+    }
+    h1 {        
+        font-size: 59px;        
+        line-height: 108px; 
+    }
+    .header-logo {
+        display: block; 
+        width: 126px;
+        height: 40px;
+        background-image: url(../img/Logo.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+    }
+}
+
+/* @media (max-width: 960px) */
+/* @media (max-width: 768px) */
+/* @media (max-width: 480px) */
+/* @media (max-width: 320px) */
 /* flex: 0 0 49%;
 color: #fff;
 box-sizing: border-box;
