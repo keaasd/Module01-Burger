@@ -1,5 +1,5 @@
 body {
-    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
 
     /* тут была А Н Н А  Б Л О К */
 }
@@ -27,8 +27,9 @@ body {
 .header-nav {
     list-style-type: none;
     display: flex;
-    padding-left: 0 auto;
+    padding-left: 0;
     gap: 46px;
+    
 }
 
 .header-nav a::after {
@@ -46,7 +47,10 @@ body {
 }
 
 .header-nav a {
-    text-decoration: none;    
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;  
+    color: #443737;  
 }
 
 .container {
