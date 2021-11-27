@@ -1,7 +1,7 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
-
-    /* тут была А Н Н А  Б Л О К */
+    
+    /* тут была А Н Н А  Б Л О К второй раз */
 }
 
 .header {
@@ -59,19 +59,25 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+.main {
+    Width: 1920px;
+}
+
 .menu {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-image: url(../img/food.jpg);    
+    
     color: #fff;
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    Width: 1920px;
+    Width: 100%;
     Height: 479px;
+    /* Width: 1920px; */
     /* max-width: 1920px; */
     /* flex: 0 0 49%; */
 }
@@ -82,10 +88,21 @@ h1 {
     font-weight: bold;
     font-size: 79px;
     margin-top: 8px;
-    line-height: 108px;
-
+    line-height: 108px; 
 }
 
+@media (min-width: 1349px) {
+    .menu {
+        max-width: 100%;
+        
+    }
+    .header {
+        /* width: 1349px; */
+    }
+    .main {
+        width: 1349px;
+    }
+}
 /* flex: 0 0 49%;
 color: #fff;
 box-sizing: border-box;
