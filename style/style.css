@@ -1,7 +1,11 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     
-    /* тут была А Н Н А  Б Л О К второй раз */
+   
+}
+header {
+    border-bottom: 1px solid #DEDEDE;
+    border-bottom: 2px solid red; /* потом удалить */
 }
 
 .header {
@@ -10,7 +14,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-top: 26px;
-    padding-bottom: 25px; 
+    padding-bottom: 25px;     
 }
 
 .header-logo {
@@ -59,69 +63,154 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
-.main {
-    Width: 1920px;
+
+.button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    list-style-position: none;
+    padding: 0;
+    
+    
 }
 
-.menu {
+.button-text {
+    font-weight: 700;
+    font-size: 15px;        
+    color: #443737;
+}
+
+.button-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-count {
+    font-weight: 700;
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #F37335;    
+    border-radius: 100%;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    bottom: 1px;
+    left: 17px;
+    line-height: 1.3; /* установили высоту, вместо padding */
+    /* padding: 1px 5px;  // удаляем, потому что width добавили*/
+}
+
+.bg {
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/food.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 142px 0;
+}
+.breadcrumbs {
+    padding-left: 0;
+    margin-top: 0;
+    list-style-type: none;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;    
-    background-image: url(../img/food.jpg);
+    gap: 16px;
+}
+.breadcrumbs a {
+    color: #DEDEDE;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    
+}
+.breadcrumbs a::before {
+    content: '/';
+    position: relative; /* можно подвинуть в сторону */ 
+    left: -7px;
+}
+.breadcrumbs li:first-child ::before {
+    display: none;
+}
+.title {
+    font-weight: 700;
+    font-size: 79px;
+    margin-top: 10px;
+}
+
+.description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5; /* 24px = 1.5 */
+    color: #FAF9F9;
+    max-width: 320px;
+    margin: 0 auto;
+}
+/* ниже можно удалить, по мере поступления новой редакции */
+main {
+    margin-top: 140px;
+}
+.main-bg {
+    background-image: url(../img/beef-burger.jpg);
     
     color: #fff;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    Width: 100%;
-    Height: 479px;
-    
-    
-
-    /* Width: 1920px; */
-    /* max-width: 1920px; */
-    /* flex: 0 0 49%; */
+    background-position: center center;
+    padding: 100px;
+    /* text-align: center; */
 }
 
-h1 {
-    display: block;
-    font-family: Nunito Sans;
-    /* font-style: normal; */
-    font-weight: bold;
-    font-size: 79px;
-    margin-top: 8px;
-    line-height: 108px; 
+.sale {
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    background: #F37335;
+    border-radius: 14px;
+    padding: 5px 19px 5px 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
 }
-
-@media (min-width: 1349px) {
-    .menu {
-        max-width: 100%;
-        
-    }
-    .header {
-        /* width: 1349px; */
-    }
-    .main {
-        width: 1349px;
-    }
+.main-bg .description {
+    margin: 0;
 }
+.cost {
+    font-weight: 900;
+    font-size: 60px;    
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    /* line-height: 76px; */
+}
+.container .description {
+    max-width: 353px;
+    margin-bottom: 15px;
+}
+.main-button {
+    padding: 20px 10px;
+    font-weight: 700;
+    font-size: 14px;    
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E2F40;
+    background: #FBB731;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+/* @media (min-width: 1349px) {} */
 @media (max-width: 768px) {
     .header-nav a {       
-        font-size: 14px;        
+        font-size: 14px;  
+              
     }
 
-    .menu {
-        max-width: 768px;
-    }
-
-    .menu p {
-        display: block;
-        padding:  auto;
-        justify-content: center;
-        
-    }
     h1 {        
         font-size: 59px;        
         line-height: 108px; 
