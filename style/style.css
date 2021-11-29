@@ -208,10 +208,9 @@ main {
 @media (max-width: 768px) {
     .header-nav a {       
         font-size: 14px;  
-              
     }
 
-    h1 {        
+    cost {        
         font-size: 59px;        
         line-height: 108px; 
     }
