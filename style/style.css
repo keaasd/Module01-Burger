@@ -5,7 +5,6 @@ body {
 }
 header {
     border-bottom: 1px solid #DEDEDE;
-    border-bottom: 2px solid red; /* потом удалить */
 }
 
 .header {
@@ -32,7 +31,9 @@ header {
     list-style-type: none;
     display: flex;
     padding-left: 0;
-    gap: 46px;
+    gap: 47px;
+    margin-left: -101px;
+    
     
 }
 
@@ -110,7 +111,7 @@ header {
     background-image: url(../img/food.jpg);
     background-size: cover;
     background-position: center center;
-    padding: 142px 0;
+    padding: 141px 0;
 }
 .breadcrumbs {
     padding-left: 0;
@@ -118,7 +119,7 @@ header {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 7px;
 }
 .breadcrumbs a {
     color: #DEDEDE;
@@ -130,7 +131,9 @@ header {
 .breadcrumbs a::before {
     content: '/';
     position: relative; /* можно подвинуть в сторону */ 
-    left: -7px;
+    left: -4px;
+    pointer-events: none;
+    
 }
 .breadcrumbs li:first-child ::before {
     display: none;
@@ -139,21 +142,28 @@ header {
     font-weight: 700;
     font-size: 79px;
     margin-top: 10px;
+    margin-bottom: 20px;    
 }
 
 .description {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    line-height: 1.5; /* 24px = 1.5 */
+    line-height: 1.6; /* 24px = 1.5 */
     color: #FAF9F9;
     max-width: 320px;
     margin: 0 auto;
+    
 }
 /* ниже можно удалить, по мере поступления новой редакции */
-main {
+.grid {
     margin-top: 140px;
+
 }
-.main-bg {
+
+main {
+    margin-top: 124px;
+}
+.banner-box {
     background-image: url(../img/beef-burger.jpg);
     
     color: #fff;
@@ -165,21 +175,21 @@ main {
 
 .sale {
     font-family: 'Open Sans', sans-serif;
-    display: inline-block;
+    display: block;
     background: #F37335;
     border-radius: 14px;
     padding: 5px 19px 5px 17px;
-    text-transform: uppercase;
     font-weight: 600;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
-    margin-bottom: 3px;
+    margin-bottom: 7px;
+    width: 58px;
 }
-.main-bg .description {
-    margin: 0;
-}
-.cost {
+
+.banner-title, cost1 {
+    display: block;
+    flex-direction: column;
     font-weight: 900;
     font-size: 60px;    
     text-transform: uppercase;
@@ -192,8 +202,16 @@ main {
     max-width: 353px;
     margin-bottom: 15px;
 }
+.banner-box .description {
+    margin-top: 14px;
+    margin-bottom: 8px;
+    margin-left: 0;
+    margin-bottom: 35px;
+    width: 328px;
+    
+}
 .main-button {
-    padding: 20px 10px;
+    padding: 20px 25px 20px 26px;
     font-weight: 700;
     font-size: 14px;    
     text-align: center;
@@ -202,15 +220,17 @@ main {
     background: #FBB731;
     border-radius: 5px;
     text-decoration: none;
-    margin-top: 15px;
+    margin-left: -1px;
 }
+
 /* @media (min-width: 1349px) {} */
+
 @media (max-width: 768px) {
     .header-nav a {       
         font-size: 14px;  
     }
 
-    cost {        
+    banner-title, cost1 {        
         font-size: 59px;        
         line-height: 108px; 
     }
@@ -246,7 +266,7 @@ background-position: center; */
     align-items: center;
     justify-content: center;
     margin-left: 30px; */
-}
+
 /* .main-img {
     display: block; 
     
