@@ -155,10 +155,7 @@ header {
     
 }
 /* ниже можно удалить, по мере поступления новой редакции */
-.grid {
-    margin-top: 140px;
 
-}
 
 main {
     margin-top: 124px;
@@ -222,8 +219,21 @@ main {
     text-decoration: none;
     margin-left: -1px;
 }
+/* ================================================ */
+.grid {
+    margin-top: 140px;
 
-/* @media (min-width: 1349px) {} */
+}
+.zavena--img-grid {
+    width: 300px;
+}
+.zamena, items {
+    display: grid;
+    
+    width: 900px;
+
+}
+/* @media (min-width: 1349px) {} ================================================= */
 
 @media (max-width: 768px) {
     .header-nav a {       
