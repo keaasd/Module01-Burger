@@ -164,8 +164,6 @@ header {
     margin: 0 auto;
     
 }
-/* ниже можно удалить, по мере поступления новой редакции */
-
 
 main {
     margin-top: 124px;
@@ -180,10 +178,6 @@ main {
     background-size: cover;
     background-position: center center;
     height: 436px;
-    /* padding: 20px 81px; */
-    
-    /* margin-top: 50px; */
-    /* text-align: center; */
 }
 
 .sale {
@@ -213,16 +207,13 @@ main {
     color: #FFFFFF;
     margin-left: 100px;
     margin-bottom: 7px;
-    
-    /* margin-top: 1px; */
-    /* padding-left: 20px; */
-
-    /* line-height: 76px; */
 }
+
 .container .description {
     max-width: 353px;
     margin-bottom: 15px;
 }
+
 .banner-text {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -349,10 +340,6 @@ main {
     /* background-size: cover; */
     width: 18px;
     height: 18px;
-    
-    
-
-    
 }
 
 .menu-grid-text {
@@ -362,12 +349,7 @@ main {
     text-align: center;
     text-transform: uppercase;
     color: #1E2F40;
-    margin-right: 6px;
-    
-    
-    
-
-
+    margin-right: 6px;    
 }
 /* ======section2 ========================*/
 .additionally {
