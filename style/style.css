@@ -13,7 +13,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-top: 26px;
-    padding-bottom: 25px;     
+    padding-bottom: 24px;   
 }
 
 .header-logo {
@@ -32,7 +32,7 @@ header {
     display: flex;
     padding-left: 0;
     gap: 47px;
-    margin-left: -101px;
+    margin-left: -100px;
     
     
 }
@@ -105,21 +105,31 @@ header {
     /* padding: 1px 5px;  // удаляем, потому что width добавили*/
 }
 
+.banner-inbox {
+    /* padding-left: 20px; */
+    padding-top: 49px;
+    /* margin-top: -13px; */
+}
 .bg {
     text-align: center;
     color: #fff;
-    background-image: url(../img/food.jpg);
+    background-image: url(../img/bg1.jpg);
     background-size: cover;
-    background-position: center center;
-    padding: 141px 0;
+    background-position: center center;    
+    padding: 130px 0;
+    
+    
+    /* padding: 0;
+    margin: 0; */
 }
+
 .breadcrumbs {
     padding-left: 0;
-    margin-top: 0;
+    margin-top: 11px;
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 7px;
+    gap: 8px;
 }
 .breadcrumbs a {
     color: #DEDEDE;
@@ -160,13 +170,19 @@ header {
 main {
     margin-top: 124px;
 }
+.banner {
+    margin-top: 137px;
+}
 .banner-box {
-    background-image: url(../img/beef-burger.jpg);
+    background-image: url(../img/burger4.jpg);
     
     color: #fff;
     background-size: cover;
     background-position: center center;
-    padding: 100px;
+    height: 436px;
+    /* padding: 20px 81px; */
+    
+    /* margin-top: 50px; */
     /* text-align: center; */
 }
 
@@ -180,34 +196,43 @@ main {
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
-    margin-bottom: 7px;
     width: 58px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /* margin-bottom: 7px; */
 }
 
-.banner-title, cost1 {
+.banner-title {
     display: block;
     flex-direction: column;
     font-weight: 900;
     font-size: 60px;    
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 0;
-    padding: 0;
+    margin-left: 100px;
+    margin-bottom: 7px;
+    
+    /* margin-top: 1px; */
+    /* padding-left: 20px; */
+
     /* line-height: 76px; */
 }
 .container .description {
     max-width: 353px;
     margin-bottom: 15px;
 }
-.banner-box .description {
-    margin-top: 14px;
+.banner-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.6; /* 24px = 1.5 */
+    color: #FAF9F9;
     margin-bottom: 8px;
-    margin-left: 0;
-    margin-bottom: 35px;
+    margin-left: 101px;
+    margin-bottom: 34px;
     width: 328px;
     
 }
-.main-button {
+.banner-link {
     padding: 20px 25px 20px 26px;
     font-weight: 700;
     font-size: 14px;    
@@ -217,7 +242,7 @@ main {
     background: #FBB731;
     border-radius: 5px;
     text-decoration: none;
-    margin-left: -1px;
+    margin-left: 100px;
 }
 /* ================================================ */
 .grid {
@@ -240,7 +265,7 @@ main {
         font-size: 14px;  
     }
 
-    banner-title, cost1 {        
+    .banner-title {        
         font-size: 59px;        
         line-height: 108px; 
     }
