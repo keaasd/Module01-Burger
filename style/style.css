@@ -284,7 +284,7 @@ main {
     line-height: 56px;
     text-transform: uppercase;
     color: #1B2A49;
-    
+    margin-bottom: 35px;
 }
 .menu-select {
     padding: 13px 27px;
@@ -306,7 +306,9 @@ main {
     margin-top: 140px;
 
 }
-
+.menu-grid-item {
+    margin-bottom: 10px;
+}
 
 
 .menu-grid-title {
@@ -315,6 +317,8 @@ main {
     line-height: 38px;
     text-align: center;
     color: #1B2A49;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .menu-grid-price {
@@ -323,26 +327,30 @@ main {
     line-height: 28px;
     text-align: center;
     color: #979797;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 
 .menu-grid-btn {
     display: flex;
-    margin: 0 auto;   
-    padding: 10px 30px;
+    margin: 19px auto;
+    padding: 9px 30px;
     background: #FBB731;
     border-radius: 5px;
     cursor: pointer;
-    gap: 13px;
+    gap: 11px;
+    
 }
 
 .menu-grid-icon {
-    display: block;
-    color: red;
+    display: block;    
     background-image: url(../img/cart-menu.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     width: 18px;
     height: 18px;
+    
+    
 
     
 }
@@ -354,14 +362,17 @@ main {
     text-align: center;
     text-transform: uppercase;
     color: #1E2F40;
+    margin-right: 6px;
+    
+    
     
 
 
 }
 /* ======section2 ========================*/
-.ololo {
-    border: solid 3px red;
-    height: 500px;
+.additionally {
+    margin-top: 69px;
+    margin-bottom: 108px;
 }
 /* ====  footer  ================================*/
 
