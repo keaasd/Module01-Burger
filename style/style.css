@@ -61,8 +61,8 @@ header {
 .container {
     max-width: 1180px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
 }
 
 .button {
@@ -191,14 +191,16 @@ main {
     display: block;
     background: #F37335;
     border-radius: 14px;
-    padding: 5px 19px 5px 17px;
+    padding: 5px 0;
     font-weight: 600;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
-    width: 58px;
+    max-width: 96px;
     margin-top: 6px;
+    margin-left: 2px;
     margin-bottom: 6px;
+    text-align: center;
     /* margin-bottom: 7px; */
 }
 
@@ -233,7 +235,7 @@ main {
     
 }
 .banner-link {
-    padding: 20px 25px 20px 26px;
+    padding: 20px 26px;
     font-weight: 700;
     font-size: 14px;    
     text-align: center;
@@ -244,7 +246,45 @@ main {
     text-decoration: none;
     margin-left: 100px;
 }
-/* ================================================ */
+/* === <section.menu> ================================================ */
+.menu {
+    margin-top: 65px;
+}
+
+.menu-grid {
+    display: grid;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.menu-title {    
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #1B2A49;
+    
+}
+.menu-select {
+    padding: 13px 27px;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 22px;
+    font-size: 15px;
+    font-size: 15px;
+    background: #FFFFFF;
+    appearance: none;
+    flex-basis: 279px;
+    background-image: url(../img/arroy.svg);
+    background-size: 12.79px 7.75px;
+    background-repeat: no-repeat;
+    background-position: 89% center;
+}
+
 .grid {
     margin-top: 140px;
 
@@ -257,6 +297,9 @@ main {
     
     width: 900px;
 
+}
+.menu-grid-cover {
+    width: ;
 }
 /* @media (min-width: 1349px) {} ================================================= */
 
