@@ -338,12 +338,16 @@ main {
 }
 
 .menu-grid-icon {
-    /* display: block;     */
+    display: block;    
     background-image: url(../img/cart-menu.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 18px;
     height: 18px;
+}
+
+.menu-grid-icon:hover {
+    background-image: url(../img/cart-white.svg);
 }
 
 .menu-grid-text {
@@ -355,6 +359,10 @@ main {
     color: #1E2F40;
     margin-right: 6px;    
 }
+.menu-grid-text:hover {
+    color: #fff;
+}
+
 /* ======section2 ========================*/
 .additionally {
     margin-top: 69px;
