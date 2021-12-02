@@ -465,6 +465,13 @@ main {
 
 /*==== @media (min-width: 1349px) {} ================================================= */
 
+#bee {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    
+}
+
 @media (max-width: 768px) {
     .header-nav a {       
         font-size: 14px;  
