@@ -74,8 +74,7 @@ header {
     border: none;
     list-style-position: none;
     padding: 0;
-    
-    
+    cursor: pointer;    
 }
 
 .button-text {
