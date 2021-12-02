@@ -245,7 +245,7 @@ main {
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 19px 20px;
 }
 .menu-grid-cover {    
     width: 100%;
@@ -298,7 +298,7 @@ main {
 
 }
 .menu-grid-item {
-    margin-bottom: 10px;
+    margin-bottom: 13px;
 }
 
 
@@ -324,20 +324,22 @@ main {
 
 .menu-grid-btn {
     display: flex;
-    margin: 19px auto;
+    margin: 20px auto;
     padding: 9px 30px;
     background: #FBB731;
     border-radius: 5px;
     cursor: pointer;
     gap: 11px;
+    border: none;
+    justify-content: center;
     
 }
 
 .menu-grid-icon {
-    display: block;    
+    /* display: block;     */
     background-image: url(../img/cart-menu.svg);
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     width: 18px;
     height: 18px;
 }
@@ -360,56 +362,71 @@ main {
 
 .container2 {
     max-width: 1180px;
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .footer {
     background-color: #1e2f40;
     color: #fff;
-    padding-top: 117px;
+    padding-top: 118px;
     padding-bottom: 106px;
 }
 
-
-.item h2 {
+.footer-item h2 {
     font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 12px;
+    margin-top: 0;
 }
 
-.item ul,
-.tel ul {
-    list-style-type: none;
+.footer-logo {
+    margin-top: 0;
 }
-.item li {
+
+.footer-item ul,
+.footer-tel ul {
+    list-style-type: none;
+    font-weight: 900;
+}
+
+.footer-item li {
     margin-bottom: 9px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 700;
     line-height: 24px;
+    margin-left: 0;
 }
 
-.item a {
+.footer-item a {
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
     
 }
-.item span {
+
+.footer-item span {
     color: #DEDEDE;
     display: block;
     font-weight: 400;
     margin-bottom: 2px;
 }
 
-.tel ul{
+.footer-tel ul{
     font-size: 20px;
     color: #fbb731;
+    margin-top: 3px;
 }
-.tel li {
+
+.footer-tel li {
     margin-bottom: 12px;
+}
+
+.footer-list {
+    padding-left: 0;
 }
 
 /*==== @media (min-width: 1349px) {} ================================================= */
