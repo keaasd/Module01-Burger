@@ -57,7 +57,9 @@ header {
     font-size: 20px;  
     color: #443737;  
 }
-
+.header-nav a:hover {
+    color: #FFC725;
+}
 .container {
     max-width: 1180px;
     margin: 0 auto;
@@ -427,6 +429,30 @@ main {
 
 .footer-list {
     padding-left: 0;
+}
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #FBB731;
+    color: #444;
+    cursor: pointer;
+    border-radius: 2px;
+    display: none;
+}  
+
+.back_to_top:hover {
+    background-color: #1e2f40;
+    border: solid 3px #FBB731; 
+}  
+
+.back_to_top-show {
+    display: block;
 }
 
 /*==== @media (min-width: 1349px) {} ================================================= */
