@@ -23,15 +23,18 @@
         <!-- тут улетает пчела -->
         <div class="container">
             <div class="header">
-                <a href="#" class="header-logo"></a>
-                <nav>
-                    <ul class="header-nav" >
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#menu" class="active">Меню</a></li>
-                        <li><a href="#footer">О нас</a></li>
-                        <li><a href="#footer-list">Контакты</a></li>
-                    </ul>
-                </nav>
+                <div class="header-item">
+                    <a href="#" class="header-logo"></a>
+                    <nav>
+                        <ul class="header-nav" >
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#menu" class="active">Меню</a></li>
+                            <li><a href="#footer">О нас</a></li>
+                            <li><a href="#footer-list">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
                 <button type="button" href="#" class="button">
                     <span class="button-item">
                         <img src="img/cart.svg" alt="корзина">
@@ -225,9 +228,9 @@
                 </ul>
             </div>
             <div class="footer-tel"> 
-                <ul id="footer-list" class="footer-list">
-                    <li>+ 7 900 787 13-13</li>
-                    <li>+ 7 900 700 14-14</li>
+                <ul class="footer-list footer-list-tel" id="footer-list">                    
+                    <li><a href="tel:+79007871313">+ 7 900 787 13-13</a></li>
+                    <li><a href="tel:+79007001414">+ 7 900 700 14-14</a></li>
                 </ul>
             </div>
         </div>

@@ -15,7 +15,12 @@ header {
     padding-top: 26px;
     padding-bottom: 24px;   
 }
-
+.header-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 68.5%;
+}
 .header-logo {
     /* только после этого появилась картинка */
     display: block; 
@@ -32,7 +37,7 @@ header {
     display: flex;
     padding-left: 0;
     gap: 47px;
-    margin-left: -100px;
+    /* margin-left: -100px; */
     
     
 }
@@ -227,7 +232,7 @@ main {
     
 }
 .banner-link {
-    padding: 20px 26px;
+    padding: 18px 24px;
     font-weight: 700;
     font-size: 14px;    
     text-align: center;
@@ -237,6 +242,11 @@ main {
     border-radius: 5px;
     text-decoration: none;
     margin-left: 100px;
+    border: solid 1px #FBB731;
+}
+.banner-link:hover {
+    color: #FBB731;
+    background-color: transparent;
 }
 /* === <section.menu> ================================================ */
 .menu {
@@ -326,14 +336,17 @@ main {
 .menu-grid-btn {
     display: flex;
     margin: 20px auto;
-    padding: 9px 30px;
+    padding: 7px 28px;
     background: #FBB731;
     border-radius: 5px;
     cursor: pointer;
     gap: 11px;
     border: none;
     justify-content: center;
-    
+    border: solid 1px #FBB731;       
+}
+.menu-grid-btn:hover {
+    background-color: #F37335;
 }
 
 .menu-grid-icon {
@@ -401,7 +414,7 @@ main {
     font-weight: 900;
 }
 
-.footer-item li {
+.footer-list li {
     margin-bottom: 9px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -410,7 +423,7 @@ main {
     margin-left: 0;
 }
 
-.footer-item a {
+.footer-list a {
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
@@ -423,39 +436,48 @@ main {
     font-weight: 400;
     margin-bottom: 2px;
 }
-
-.footer-tel ul{
-    font-size: 20px;
-    color: #fbb731;
+.footer-list-tel {    
     margin-top: 3px;
 }
 
-.footer-tel li {
+
+.footer-list-tel li {
     margin-bottom: 12px;
 }
-
+.footer-list-tel a {
+    font-size: 20px;
+    color: #fbb731;
+    font-weight: 900;
+}
+.footer-list-tel a:hover {
+    color: #DEDEDE;    
+}
 .footer-list {
     padding-left: 0;
 }
+/* ==== стрелка =========================*/
 .back_to_top {
     position: fixed;
     bottom: 80px;
     right: 40px;
-    z-index: 9999;
+    /* z-index: 9999; */
     width: 30px;
     height: 30px;
     text-align: center;
     line-height: 30px;
+    font-weight: 700;
     background: #FBB731;
     color: #444;
+    /* color: transparent; */
     cursor: pointer;
     border-radius: 2px;
     display: none;
+    border: solid 2px #FBB731; 
 }  
 
 .back_to_top:hover {
-    background-color: #1e2f40;
-    border: solid 3px #FBB731; 
+    background: #F37335;
+    
 }  
 
 .back_to_top-show {
