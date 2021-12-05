@@ -68,8 +68,8 @@ header {
 .container {
     max-width: 1180px;
     margin: 0 auto;
-    /* padding-left: 15px; */
-    /* padding-right: 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .button {
@@ -112,8 +112,9 @@ header {
 }
 
 .banner-inbox {
-    /* padding-left: 20px; */
-    padding-top: 49px;
+    /* padding-left: 20px; */ 
+    padding-top: 46px;
+
     /* margin-top: -13px; */
 }
 .bg {
@@ -122,16 +123,12 @@ header {
     background-image: url(../img/bg1.jpg);
     background-size: cover;
     background-position: center center;    
-    padding: 130px 0;
-    
-    
-    /* padding: 0;
-    margin: 0; */
+    padding: 142px 0px 139px 0px;    
 }
 
 .breadcrumbs {
-    padding-left: 0;
-    margin-top: 11px;
+    padding-top: 0;
+    margin-top: 0;    
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -156,9 +153,11 @@ header {
 }
 .title {
     font-weight: 700;
-    font-size: 79px;
-    margin-top: 10px;
-    margin-bottom: 20px;    
+    font-size: 79px;    
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2px;
+    padding-bottom: 20px;
 }
 
 .description {
@@ -174,16 +173,25 @@ header {
 main {
     margin-top: 124px;
 }
+
 .banner {
-    margin-top: 137px;
+    margin-top: 140px;
+    margin-bottom: 0;
+    
 }
 .banner-box {
     background-image: url(../img/burger4.jpg);
-    
+    text-align: left;
     color: #fff;
     background-size: cover;
     background-position: center center;
-    height: 436px;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-left: 1px;
+    padding-bottom: 121px;    
+    
+
+    /* padding: 40px 218px; */
 }
 
 .sale {
@@ -196,12 +204,8 @@ main {
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
-    max-width: 96px;
-    margin-top: 6px;
-    margin-left: 2px;
-    margin-bottom: 6px;
+    max-width: 96px;    
     text-align: center;
-    /* margin-bottom: 7px; */
 }
 
 .banner-title {
@@ -211,13 +215,11 @@ main {
     font-size: 60px;    
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-left: 100px;
-    margin-bottom: 7px;
-}
-
-.container .description {
-    max-width: 353px;
-    margin-bottom: 15px;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .banner-text {
@@ -250,13 +252,15 @@ main {
 }
 /* === <section.menu> ================================================ */
 .menu {
-    margin-top: 65px;
+    margin-top: 63px;
+    margin-bottom: 100px;
 }
 
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 19px 20px;
+    gap: 53px 20px;
+    
 }
 .menu-grid-cover {    
     width: 100%;
@@ -286,7 +290,10 @@ main {
     line-height: 56px;
     text-transform: uppercase;
     color: #1B2A49;
-    margin-bottom: 35px;
+    margin-bottom: 0;
+    /* padding-top: 20px; */
+    
+    padding-bottom: 33px;
 }
 .menu-select {
     padding: 13px 27px;
@@ -304,38 +311,46 @@ main {
     background-position: 89% center;
 }
 
+
+
 .grid {
     margin-top: 140px;
 
 }
 .menu-grid-item {
-    margin-bottom: 13px;
+    /* margin-bottom: 13px; */
 }
 
 
 .menu-grid-title {
     font-weight: 600;
     font-size: 30px;
-    line-height: 38px;
+    /* line-height: 38px; */
     text-align: center;
     color: #1B2A49;
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-top: 1px;    
     margin-bottom: 0px;
+    /* margin-top: 20px; */
+    
 }
 
 .menu-grid-price {
     font-weight: 700;
     font-size: 20px;
-    line-height: 28px;
+    /* line-height: 28px; */
     text-align: center;
     color: #979797;
-    margin-top: 5px;
+    padding-top: 11px;
+    padding-bottom: 24px;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .menu-grid-btn {
     display: flex;
-    margin: 20px auto;
+    margin: 0px auto;
     padding: 7px 28px;
     background: #FBB731;
     border-radius: 5px;
@@ -343,7 +358,10 @@ main {
     gap: 11px;
     border: none;
     justify-content: center;
-    border: solid 1px #FBB731;       
+    border: solid 1px #FBB731;    
+    margin-bottom: 0; 
+    margin-top: 0;
+
 }
 .menu-grid-btn:hover {
     background-color: #F37335;
@@ -377,8 +395,8 @@ main {
 
 /* ======section2 ========================*/
 .additionally {
-    margin-top: 69px;
-    margin-bottom: 108px;
+    /* margin-top: 69px; */
+    margin-bottom: 142px;
 }
 /* ====  footer  ================================*/
 
