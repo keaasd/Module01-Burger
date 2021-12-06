@@ -1,8 +1,9 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
-    
-   
+    overflow-x: hidden;
 }
+
+
 header {
     border-bottom: 1px solid #DEDEDE;
 }
@@ -206,6 +207,7 @@ main {
     text-transform: uppercase;
     max-width: 96px;    
     text-align: center;
+    margin-bottom: 0;
 }
 
 .banner-title {
@@ -501,7 +503,209 @@ main {
 .back_to_top-show {
     display: block;
 }
+/* ==== главная страничка ============================ */
 
+
+.wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents { 
+    color: #FAF9F9;
+    flex: 0 0 580px;
+    padding-top: 170px;
+    padding-bottom: 170px;
+    
+}
+
+.main2 { 
+   
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);  
+	display: flex;
+    width: 1349px;
+    height: 862px;
+    position: relative; 
+	   
+}
+
+.visual {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.visual-bg {
+    width: 432px;
+    height: 100%;
+    background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+}
+
+.content-link,
+.promo a {
+    padding: 20px 45px;    
+    font-weight: 700px;
+    color: #1E2F40;
+    background: #FBB731;
+    border-radius: 5px;
+    font-size: 14px; 
+    Line-height: 18px;    
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block; /* чтобы не наехала на другой текст */
+}
+
+h1 span {        
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;    
+    color: #FBB731;
+    display: block;
+    margin-bottom: 10px;
+}
+.content-title {
+    /* width: 580px;     */
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 140px;
+    margin-bottom: 40px;
+    margin-top: 0;   
+    margin-bottom: 0; 
+}
+
+.content-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    line-height: 1.4;
+    color: #DEDEDE;
+    margin-bottom: 42px;
+}
+
+.main2 img {
+    width: 829px;
+    position: absolute;
+    right: -168px;
+    
+}
+.promo {
+    padding-top: 186px;
+    padding-bottom: 46px;
+}
+.promo-left, 
+.promo-right {
+    flex: 0 0 49%;
+    color: #fff;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.promo-left {
+    background-image: url(../img/promo_left.png);
+    
+    padding: 116px 50px;
+}
+
+.promo-right {
+    background-image: url(../img/promo_right.png);
+    padding: 102px 50px;
+}
+
+.sale2 {
+    font-size: 14px;
+    font-weight: 900;
+    background: #F37335;
+    padding: 5px 19px;
+    border-radius: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+.cost2 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.promo-description {
+    color: #FAF9F9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.promo-left .promo-description {
+    max-width: 392px;
+}
+
+.promo-right .promo-description {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.free {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.footer2 {
+    background-color: #1e2f40;
+    color: #fff;
+    padding-top: 117px;
+    padding-bottom: 106px;
+}
+.logo {
+    width: 63px;
+    height: 56px;
+}
+.item2 h2 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.item2 ul,
+.tel2 ul {
+    list-style-type: none;
+}
+.item2 li {
+    margin-bottom: 9px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.item2 a {
+    color: #DEDEDE;
+    text-decoration: none;
+    font-weight: 400;
+    
+}
+.item2 span {
+    color: #DEDEDE;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.tel2 ul{
+    font-size: 20px;
+    color: #fbb731;
+}
+.tel2 li {
+    margin-bottom: 12px;
+}
 /*==== @media (min-width: 1349px) {} ================================================= */
 
 #bee {
