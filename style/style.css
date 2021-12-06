@@ -546,7 +546,7 @@ main {
 
 .content-link,
 .promo a {
-    padding: 18px 43px;    
+    padding: 18px 47px;    
     font-weight: 700;
     color: #1E2F40;
     background: #FBB731;
@@ -601,7 +601,7 @@ h1 span {
 .promo {
     padding-top: 186px;
     padding-bottom: 46px;
-    margin-bottom: 125px;
+    margin-bottom: 136px;
 }
 .promo-left, 
 .promo-right {
@@ -616,12 +616,12 @@ h1 span {
 .promo-left {
     background-image: url(../img/promo_left.png);
     
-    padding: 116px 50px;
+    padding: 110px 50px;
 }
 
 .promo-right {
     background-image: url(../img/promo_right.png);
-    padding: 102px 50px;
+    padding: 102px 38px;
 }
 
 .sale2 {
@@ -655,7 +655,7 @@ h1 span {
 
 .promo-right .promo-description {
     max-width: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 .free {
