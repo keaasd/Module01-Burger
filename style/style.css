@@ -236,7 +236,7 @@ main {
     
 }
 .banner-link {
-    padding: 18px 24px;
+    padding: 18px 48px;
     font-weight: 700;
     font-size: 14px;    
     text-align: center;
@@ -546,25 +546,31 @@ main {
 
 .content-link,
 .promo a {
-    padding: 20px 45px;    
-    font-weight: 700px;
+    padding: 18px 43px;    
+    font-weight: 700;
     color: #1E2F40;
     background: #FBB731;
+    border: solid 1px #FBB731;
     border-radius: 5px;
     font-size: 14px; 
     Line-height: 18px;    
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block; /* чтобы не наехала на другой текст */
+
 }
 
+.content-link:hover,
+.promo a:hover {
+    background-color: #F37335;
+}
 h1 span {        
     font-weight: 700;
     font-size: 30px;
     line-height: 38px;    
     color: #FBB731;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
 }
 .content-title {
     /* width: 580px;     */
@@ -575,6 +581,7 @@ h1 span {
     margin-bottom: 40px;
     margin-top: 0;   
     margin-bottom: 0; 
+    padding-bottom: 17px;
 }
 
 .content-text {
@@ -582,7 +589,7 @@ h1 span {
     font-size: 19px;
     line-height: 1.4;
     color: #DEDEDE;
-    margin-bottom: 42px;
+    margin-bottom: 48px;
 }
 
 .main2 img {
@@ -594,6 +601,7 @@ h1 span {
 .promo {
     padding-top: 186px;
     padding-bottom: 46px;
+    margin-bottom: 125px;
 }
 .promo-left, 
 .promo-right {
