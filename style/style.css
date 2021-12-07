@@ -186,13 +186,9 @@ main {
     color: #fff;
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
-    padding-top: 0px;
-    padding-left: 1px;
-    padding-bottom: 121px;    
-    
-
-    /* padding: 40px 218px; */
+    background-repeat: no-repeat;    
+    /* padding-bottom: 121px; убрал */
+    padding: 90px 100px
 }
 
 .sale {
@@ -217,9 +213,9 @@ main {
     font-size: 60px;    
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-top: 60px;
+    /* padding-top: 60px;
     padding-left: 100px;
-    padding-bottom: 0px;
+    padding-bottom: 0px; */
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -230,7 +226,7 @@ main {
     line-height: 1.6; /* 24px = 1.5 */
     color: #FAF9F9;
     margin-bottom: 8px;
-    margin-left: 101px;
+    /* margin-left: 101px; убрал*/
     margin-bottom: 34px;
     width: 328px;
     
@@ -244,8 +240,7 @@ main {
     color: #1E2F40;
     background: #FBB731;
     border-radius: 5px;
-    text-decoration: none;
-    margin-left: 100px;
+    text-decoration: none;    
     border: solid 1px #FBB731;
 }
 .banner-link:hover {
@@ -284,7 +279,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    padding-top: 64px;
+    /* padding-bottom: 20px; */
 }
 .menu-title {    
     font-weight: 700;
@@ -293,10 +289,9 @@ main {
     text-transform: uppercase;
     color: #1B2A49;
     margin-bottom: 0;
-    /* padding-top: 20px; */
     
-    padding-bottom: 33px;
 }
+
 .menu-select {
     padding: 13px 27px;
     border: 1px solid #DEDEDE;
@@ -352,7 +347,7 @@ main {
 
 .menu-grid-btn {
     display: flex;
-    margin: 0px auto;
+    margin: 19px auto 0;
     padding: 7px 28px;
     background: #FBB731;
     border-radius: 5px;
@@ -361,12 +356,12 @@ main {
     border: none;
     justify-content: center;
     border: solid 1px #FBB731;    
-    margin-bottom: 0; 
-    margin-top: 0;
+    
 
 }
 .menu-grid-btn:hover {
     background-color: #F37335;
+    border: none;
 }
 
 .menu-grid-icon {
@@ -378,10 +373,6 @@ main {
     height: 18px;
 }
 
-.menu-grid-icon:hover {
-    background-image: url(../img/cart-white.svg);
-}
-
 .menu-grid-text {
     font-weight: 700;
     font-size: 14px;
@@ -391,9 +382,7 @@ main {
     color: #1E2F40;
     margin-right: 6px;    
 }
-.menu-grid-text:hover {
-    color: #fff;
-}
+
 
 /* ======section2 ========================*/
 .additionally {
@@ -448,6 +437,9 @@ main {
     text-decoration: none;
     font-weight: 400;
     
+}
+.footer-list a:hover {
+    color: #FFC725;
 }
 
 .footer-item span {
@@ -688,7 +680,7 @@ h1 span {
 }
 .item2 li {
     margin-bottom: 9px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 700;
     line-height: 24px;
