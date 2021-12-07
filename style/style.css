@@ -148,6 +148,9 @@ header {
     pointer-events: none;
     
 }
+.breadcrumbs a:hover::before {
+    color: #DEDEDE;    
+}
 .breadcrumbs li:first-child ::before {
     display: none;
 }
@@ -582,7 +585,7 @@ main {
     font-weight: 700;
     color: #1E2F40;
     background: #FBB731;
-    border: solid 1px #FBB731;
+    /* border: solid 1px #FBB731; */
     border-radius: 5px;
     font-size: 14px; 
     Line-height: 18px;    
