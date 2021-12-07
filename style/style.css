@@ -151,6 +151,9 @@ header {
 .breadcrumbs li:first-child ::before {
     display: none;
 }
+.breadcrumbs a:hover {
+    color: #FFC725;
+}
 .title {
     font-weight: 700;
     font-size: 79px;    
@@ -237,6 +240,7 @@ main {
     border-radius: 5px;
     text-decoration: none;    
     border: solid 1px #FBB731;
+    transition: 0.2s;
 }
 .banner-link:hover {
     color: #FBB731;
@@ -361,7 +365,7 @@ main {
     border: none;
     justify-content: center;
     border: solid 1px #FBB731;    
-    
+    transition: 0.2s;
 
 }
 .menu-grid-btn:hover {
@@ -472,6 +476,37 @@ main {
 .footer-list {
     padding-left: 0;
 }
+
+.button-up {
+    padding: 5px 20px;
+    background: #FBB731;
+    border-radius: 5px;
+    cursor: pointer;    
+    border: none;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E2F40;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: 2s;
+}
+
+.button-up:hover {
+    background-color: #F37335;
+    border: none;
+}
+.button-up.hidden {
+    opacity: 0;
+}
+.button-up.visible {
+    opacity: 1;
+}
 /* ==== стрелка =========================*/
 .back_to_top {
     position: fixed;
@@ -489,7 +524,7 @@ main {
     cursor: pointer;
     border-radius: 2px;
     display: none;
-    border: solid 2px #FBB731; 
+    
 }  
 
 .back_to_top:hover {

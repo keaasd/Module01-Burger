@@ -7,14 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;900&family=Open+Sans&display=swap" rel="stylesheet"> 
-    <script defer src="js/up.js"></script>    
+    <script defer src="js/main.js"></script>     
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="img/Logo_light2.svg" type="image/x-icon">
     <title>Burger</title>
 </head>
 <body>
-    <header>        
+    <header id="headerTop">        
         <div class="container">
             <div class="header">
                 <div class="header-item">
@@ -66,7 +66,7 @@
             </div>
         </div>
         <!-- === <section class="menu"> ========================= -->
-        <section id="menu" class="menuBurger">   
+        <section id="menuBurger" class="menu">   
             
                 <div class="menu-header">
                     <h2 class="menu-title">бургеры</h2>  
@@ -229,7 +229,7 @@
             </div>
         </div>
     </footer>
-    <a class="back_to_top" title="Наверх">↑</a>
+    <a href="#headerTop" class="button-up hidden" id="btnUp">Наверх</a>
     
     <!-- https://github.com/keaasd/Module01-Burger.git
     kea-asd@yandex.ru -->
