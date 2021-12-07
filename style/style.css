@@ -80,7 +80,8 @@ header {
     border: none;
     list-style-position: none;
     padding: 0;
-    cursor: pointer;    
+    cursor: pointer; 
+    gap: 10px;   
 }
 
 .button-text {
@@ -93,23 +94,22 @@ header {
     position: relative;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
 }
 
 .button-count {
     font-weight: 700;
-    font-size: 13px;
-    color: #FFFFFF;
-    background-color: #F37335;    
-    border-radius: 100%;
-    position: absolute;
-    width: 17px;
-    height: 17px;
-    text-align: center;
-    bottom: 1px;
-    left: 17px;
-    line-height: 1.3; /* установили высоту, вместо padding */
-    /* padding: 1px 5px;  // удаляем, потому что width добавили*/
+font-size: 13px;
+color: #ffff;
+background: #F37335;
+border-radius: 100%;
+position: absolute;
+width: 17px;
+height: 17px;
+text-align: center;
+line-height: 1.3;
+bottom: 1px;
+right: -6px;
 }
 
 .banner-inbox {
