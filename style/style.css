@@ -242,12 +242,16 @@ main {
     background: #FBB731;
     border-radius: 5px;
     text-decoration: none;    
-    border: solid 1px #FBB731;
-    transition: 0.2s;
+    border: 1px solid  #FBB731;
+    /* transition: 0.2s; */
+    transition: background-color 0.3s cubic-bezier(1,.02,1,1.18), color 0.4s cubic-bezier(1,.02,1,1.18);
 }
+/* transition c с */
 .banner-link:hover {
     color: #FBB731;
     background-color: transparent;
+    border-top-left-radius: 35%;
+    border-bottom-right-radius: 35%;
 }
 /* === <section.menu> ================================================ */
 .menu {
@@ -281,7 +285,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 64px;
+    /* padding-top: 64px; */
     /* padding-bottom: 20px; */
 }
 .menu-title {    
@@ -367,13 +371,13 @@ main {
     gap: 11px;
     border: none;
     justify-content: center;
-    border: solid 1px #FBB731;    
+    border: 1px solid #FBB731;    
     transition: 0.2s;
 
 }
 .menu-grid-btn:hover {
     background-color: #F37335;
-    border: none;
+    border: 1px solid #FBB731;;
 }
 
 .menu-grid-icon {
@@ -497,7 +501,7 @@ main {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    transition: 2s;
+    transition: 1s;
 }
 
 .button-up:hover {
