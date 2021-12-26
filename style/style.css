@@ -97,11 +97,6 @@ header {
     bottom: 1px;
     right: -6px;
 }
-.banner-inbox {
-    /* padding-left: 20px; */ 
-    /* padding-top: 46px; */
-    /* margin-top: -13px; */
-}
 .bg {
     text-align: center;
     color: #fff;
@@ -109,7 +104,7 @@ header {
     background-size: cover;
     background-position: center center;    
     padding: 142px 0;
-    margin-bottom: 140px;   
+    margin-bottom: 0;   
 }
 .breadcrumbs {
     padding-left: 0;
@@ -156,9 +151,6 @@ header {
     color: #FAF9F9;
     max-width: 320px;
     margin: 0 auto;    
-}
-main {
-    margin-top: 124px;
 }
 .banner {
     margin-top: 140px;
@@ -772,20 +764,30 @@ h1 span {
     .header-item {        
         flex-basis: 75.5%;
     }
-    .bg {       
-        margin-bottom: 72px;   
+    .banner {
+        margin-top: 70px;
     }
     .banner-box {
         background-position: -79px center;       
         padding: 101px 40px 124px;
     }
+    .menu {
+        margin-top: 47px;
+        margin-bottom: 60px;
+    }
     .menu-grid {       
         grid-template-columns: repeat(2, 1fr);
         gap: 50px 15px;    
     }
+    .menu-grid-cover-2 {
+        height: 325px;
+    }
     .menu-other {
         overflow: hidden;
-        height: 108vw;
+        height: 74vw;
+    }    
+    .menu-other .container {
+        padding-right: 0;
     }
     .menu-other .menu-grid {
         display: flex;
@@ -801,12 +803,19 @@ h1 span {
     .menu-other .menu-grig-cover img {
         height: 320px;
     }
+    .additionally {
+        margin-bottom: 0px;
+    }
+    .footer {
+        padding-top: 62px;
+        padding-bottom: 67px;
+    }
     .footer-tel {
-        display: block;
+        display: none;
     }
 
     .footer-list + .footer-list-tel {
-        display: none;
+        display: block;
     }
     .container2 {
         max-width: 738px;
