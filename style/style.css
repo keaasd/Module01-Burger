@@ -296,9 +296,6 @@ header {
 .grid {
     margin-top: 140px;
 }
-.menu-grid-item {
-    /* margin-bottom: 13px; */
-}
 .menu-grid-title {
     font-weight: 600;
     font-size: 30px;
@@ -1637,7 +1634,7 @@ h1 span {
     .menu-header {
         gap: 26px;
     } */
-} 
+
 @media (max-width: 280px) {
     .container {
         max-width: 280px;
