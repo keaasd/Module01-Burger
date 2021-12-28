@@ -781,8 +781,8 @@ h1 span {
     }
     .menu-other {
         overflow: hidden;
-        height: 74vw;
-    }    
+        height: 597px;
+    }
     .menu-other .container {
         padding-right: 0;
     }
@@ -791,7 +791,7 @@ h1 span {
         width: auto;
         overflow-x: scroll;
         overflow-y: hidden;
-        padding-bottom: 24vw;
+        padding-bottom: 136px;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 281px;
@@ -801,7 +801,7 @@ h1 span {
         height: 320px;
     }
     .additionally {
-        margin-bottom: 0px;
+        margin-bottom: 90px;
     }
     .footer {
         padding-top: 62px;
@@ -949,11 +949,7 @@ h1 span {
         height: 320px;
         position: relative;
         overflow: hidden;
-    }
-    .menu-other {
-        overflow: hidden;
-        height: 624px;
-    }
+    }    
     .additionally {
         margin-top: 69px;
         margin-bottom: 110px;
@@ -1132,9 +1128,9 @@ h1 span {
     .menu-grid-btn {
         padding: 10px 21px;
     }
-    .menu-other .menu-grid {
+    /* .menu-other .menu-grid {
         padding-bottom: 16vw;
-    }
+    } */
     .menu-other .menu-grid-item {
         flex: 0 0 38vw;
     }
