@@ -181,7 +181,6 @@ header {
 }
 .banner-title {
     display: block;
-    flex-direction: column;
     font-weight: 900;
     font-size: 60px;    
     text-transform: uppercase;
@@ -754,8 +753,6 @@ h1 span {
         gap: 22px;
     }
     .header-logo {
-        background-size: contain;
-        width: 150px;
         height: 48px;
     }    
     .header-item {        
@@ -763,6 +760,10 @@ h1 span {
     }
     .banner {
         margin-top: 70px;
+    }
+    .breadcrumbs {
+        padding-top: 2px;
+        margin-bottom: 14px;
     }
     .banner-box {
         background-position: -79px center;       
@@ -816,6 +817,38 @@ h1 span {
     }
     .container2 {
         max-width: 738px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+    .header-logo {
+        background-size: contain;
+        width: 190px;
+        height: 48px;
+    }
+    .banner-box {
+        padding: 101px 40px 120px;
+    }
+    .banner-text {
+        padding-bottom: 18px;
+    }
+    .menu-title {
+        padding: 34px 0;
+        padding-bottom: 32px;
+    }
+    .menu-other .menu-grid-item {
+        flex: 0 0 276px;
+    }
+    .menu-grid-cover-2 {
+        height: 321px;
+    }
+    .additionally {
+        margin-bottom: 133px;
+    }
+    nav {
+        display: block;
     }
 }
 @media (min-width: 766px) {
@@ -912,7 +945,8 @@ h1 span {
     }
     .header {
         gap: 21px;
-        padding-top: 28px;        
+        padding-top: 31px;
+        padding-bottom: 28px;
     }
     .header-burger {
         display: block;
@@ -928,13 +962,13 @@ h1 span {
         gap: 30px;
     }
     .container {
-        max-width: 738px;
+        max-width: 765px;
     }
     main {
     margin-top:0;
     }
     .banner {
-        margin-top: 70px;
+        margin-top: 75px;
     }
     .banner-box {
         background-position: -79px center;
@@ -951,8 +985,15 @@ h1 span {
         overflow: hidden;
     }    
     .additionally {
-        margin-top: 69px;
-        margin-bottom: 110px;
+        margin-top: 40px;
+        margin-bottom: 136px;
+    }
+    .footer {
+        padding-top: 66px;
+        padding-bottom: 67px;
+    }
+    .footer-list-tel {
+    margin-top: 25px;
     }
 }
 @media (max-width: 567px) {
@@ -1466,14 +1507,14 @@ h1 span {
 
     /* ---- menu.html ---- */   
     .header {
-        padding-top: 34px;
+        padding-top: 19px;
         padding-bottom: 19px;
     }    
     .header-item {
         flex-basis: 52%;
     }
     .menu {
-        margin-top: 30px;
+        margin-top: 31px;
         margin-bottom: 0;
     }
     .additionally .container {
@@ -1502,15 +1543,17 @@ h1 span {
     .menu-title {        
         font-size: 27px;
         line-height: 56px;
-        padding: 21px 0;        
+        padding: 21px 0;  
+        padding-bottom: 21px; 
     }    
     .menu-grid-title {
         font-size: 13px;
         font-weight: 700;
         padding-top: 0px;
+        margin-top: 11px;
     }
     .menu-select {
-        padding: 12px 15px;
+        padding: 12px 12px;
         font-size: 12px;
         flex-basis: 274px;
     }
@@ -1523,7 +1566,7 @@ h1 span {
     }
     .menu-grid-btn {
         padding: 8px 16px;
-        margin: 10px auto 0;
+        margin: 11px auto 0;
     }
     .menu-grid {
         gap: 25px 12px;
@@ -1538,7 +1581,7 @@ h1 span {
     .menu-other {
         overflow: hidden;
         height: 380px;
-    }
+    }    
     .footer {
         margin-top: 60px;
         padding-top: 62px;
@@ -1586,6 +1629,9 @@ h1 span {
         font-weight: 800;
         font-family: 'Nunito Sans', sans-serif;
     }    
+    .container {
+        max-width: 320px;
+    }
     .bg {
         background-image: url(../img/bg-320.jpg);
         padding: 57px 0;
@@ -1594,6 +1640,8 @@ h1 span {
     .breadcrumbs {
         font-size: 14px;
         margin-bottom: 0;
+        padding-left: 0px;
+        padding-top: 0px;
     }    
     .breadcrumbs a {
         font-size: 14px;
@@ -1601,7 +1649,7 @@ h1 span {
     .title {
         font-size: 38px;
         padding-top: 18px;
-        padding-bottom: 13px;
+        padding-bottom: 12px;
     }
     .description {        
         font-size: 12px;        
@@ -1614,11 +1662,12 @@ h1 span {
         background-size: cover;
     }
     .banner-box {        
-        background-position: 19% center;        
+        background-position: 19% center;    
+        padding: 35px 24px 55px;    
     }
     .banner-text {
         max-width: 233px;
-        padding-bottom: 19px;   
+        padding-bottom: 18px;
     }        
     .menu-other .menu-grid-item {
         flex: 0 0 141px;
@@ -1628,13 +1677,14 @@ h1 span {
     }
     .menu-grid-cover-2 {
         height: 180px;
-        margin-bottom: 13px;
+        margin-bottom: 10px;
     }
     .menu-grid-price {
         font-size: 16px;
         padding-bottom: 0;   
         margin-top: 0;
-        margin-bottom: 10px;     
+        margin-bottom: 10px;    
+        padding-top: 8px; 
     }
     .menu-header {
         gap: 26px;
