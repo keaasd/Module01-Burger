@@ -426,7 +426,7 @@ header {
 .footer-list-tel a {
     font-size: 20px;
     color: #fbb731;
-    font-weight: 900;
+    font-weight: 800;
 }
 .footer-list-tel a:hover {
     color: #DEDEDE;    
@@ -849,6 +849,9 @@ h1 span {
     }
     nav {
         display: block;
+    }
+    .footer-item h2 {
+        Line-height: 1.5;
     }
 }
 @media (min-width: 766px) {
@@ -1526,7 +1529,7 @@ h1 span {
         max-width: 358px;
         flex-direction: column;
         position: relative;
-        gap: 31px;
+        gap: 27px;
     }
     .sale {
         margin-bottom: 5px;
@@ -1591,7 +1594,9 @@ h1 span {
         font-family: 'Open Sans', sans-serif;
         padding-bottom: 0;
     }
-    
+    .footer-list-tel {
+        margin-top: 0;
+    }
     .footer-item {
         padding: 0;
         margin-top: 0;        
@@ -1670,7 +1675,7 @@ h1 span {
         padding-bottom: 18px;
     }        
     .menu-other .menu-grid-item {
-        flex: 0 0 141px;
+        flex: 0 0 139px;
     }
     .menu-grid-cover {
         height: 180px;
