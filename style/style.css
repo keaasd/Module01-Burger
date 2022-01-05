@@ -995,9 +995,6 @@ h1 span {
         padding-top: 66px;
         padding-bottom: 67px;
     }
-    .footer-list-tel {
-    margin-top: 25px;
-    }
 }
 @media (max-width: 567px) {
     /* главная */
@@ -1561,7 +1558,7 @@ h1 span {
         flex-basis: 274px;
     }
     .menu-grid-cover {
-        width: 139px;
+        width: 40vw;
         height: 180px;        
     }
     .menu-grid-cover .menu-grid-img {        
@@ -1572,7 +1569,7 @@ h1 span {
         margin: 11px auto 0;
     }
     .menu-grid {
-        gap: 25px 12px;
+        gap: 25px 15px;
     }
     .additionally .menu-grid {
         gap: 50px 3px;
@@ -1675,10 +1672,7 @@ h1 span {
         padding-bottom: 18px;
     }        
     .menu-other .menu-grid-item {
-        flex: 0 0 139px;
-    }
-    .menu-grid-cover {
-        height: 180px;
+        flex: 0 0 130px;
     }
     .menu-grid-cover-2 {
         height: 180px;
