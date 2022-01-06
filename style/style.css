@@ -675,6 +675,7 @@ h1 span {
     background-size: contain;
     border: none;
     cursor: pointer;
+    margin-top: 4px;
 }
 #modal {
     max-width: 500px;
@@ -985,10 +986,9 @@ h1 span {
     /* главная */
     .header {
         padding-top: 19px;
-        padding-bottom: 19px;
+        padding-bottom: 18px;
     }
     .header-logo {
-        width: 116px;
         height: 37px;
     }    
     .main2 {
@@ -1135,7 +1135,6 @@ h1 span {
     } 
     .menu-grid-cover {
     height: 56vw;
-    margin-bottom: 10px;
     }
     .menu-grid {
         gap: 25px 15px;
@@ -1144,15 +1143,18 @@ h1 span {
         height: 100%;
     }
     .menu-grid-title {
-        font-size: 15px;
+        font-size: 13px;
+        padding-top: 10px;
+        font-weight: 700;
     }   
     .menu-grid-price {
         font-size: 16px;
-        margin-top: 6px;
-        margin-bottom: 14px;
+        padding-top: 8px;
+        margin-bottom: 9px;
     }
     .menu-grid-btn {
         padding: 10px 21px;
+        margin: 0 auto;
     }
     /* .menu-other .menu-grid {
         padding-bottom: 16vw;
@@ -1402,9 +1404,6 @@ h1 span {
         overflow: hidden;
         height: 502px;
     }    
-    .menu-grid-title {
-        font-size: 13px;
-    }     
 }
 @media (max-width: 320px) {
     /* ---- Главная ---- */
@@ -1530,13 +1529,7 @@ h1 span {
         line-height: 56px;
         padding: 21px 0;  
         padding-bottom: 21px; 
-    }    
-    .menu-grid-title {
-        font-size: 13px;
-        font-weight: 700;
-        padding-top: 0px;
-        margin-top: 11px;
-    }
+    }   
     .menu-select {
         padding: 12px 12px;
         font-size: 12px;
@@ -1656,19 +1649,11 @@ h1 span {
         max-width: 233px;
         padding-bottom: 18px;
     }        
-    .menu-other .menu-grid-item {
+    /* .menu-other .menu-grid-item {
         flex: 0 0 130px;
-    }
+    } */
     .menu-grid-cover-2 {
         height: 180px;
-        margin-bottom: 10px;
-    }
-    .menu-grid-price {
-        font-size: 16px;
-        padding-bottom: 0;   
-        margin-top: 0;
-        margin-bottom: 10px;    
-        padding-top: 8px; 
     }
     .menu-header {
         gap: 26px;
