@@ -853,11 +853,11 @@ h1 span {
     }
     .main2 img {
         width: 320px;
-        left: -12px;
-        top: 32px;    
+        left: -69px;
+        top: 0;
     }
     .contents {
-        flex: 0 0 151px;
+        flex: 0 0 295px;
         padding-top: 23px;
     }   
     .content-title {
@@ -870,28 +870,24 @@ h1 span {
         align-items: center;
     }
     .visual-bg {
-        width: 90px;
-    }
-    .main2 img {
-        width: 160px;
-        position: absolute;
-        left: -18px;
+        width: 190px;
     }
     h1 span {
         font-weight: 600;
         font-size: 10px;
         line-height: 20px;        
         padding-bottom: 2px;
+        margin-bottom: 0px;
     }
     .content-text {
         font-size: 12px;
         line-height: 1.4;
-        margin-bottom: 40px;
+        margin-bottom: 16px;
+        max-width: 260px;
     }
     .wrap {
         max-width: 280px;
-        margin-left: 15px;
-        
+        margin-left: 15px;        
     }
     .content-link, .promo a {
         padding: 14px 43px;
@@ -993,7 +989,7 @@ h1 span {
     }    
     .main2 {
         width: 100%;
-        height: 325px;
+        height: 290px;
     }
     .main2 img {
         width: 320px;
@@ -1021,24 +1017,13 @@ h1 span {
         position: absolute;
         left: -18px;
     }
-    h1 span {
-        font-weight: 600;
-        font-size: 10px;
-        line-height: 20px;        
-        padding-bottom: 2px;
-    }
-    .content-text {
-        font-size: 12px;
-        line-height: 1.4;
-        margin-bottom: 40px;
-    }
     .wrap {
         max-width: 280px;
         margin-left: 15px;
         
     }
     .content-link, .promo a {
-        padding: 14px 43px;
+        padding: 10px 30px;
     }
     .promo {
         padding-top: 70px;
@@ -1208,20 +1193,12 @@ h1 span {
     
 }
 @media (max-width: 408px) {   
-    /* главная */
-    .main2 {
-        width: 100%;
-        height: 325px;
-    }
+    /* главная */    
     .main2 img {
         width: 320px;
         left: -12px;
-        top: 32px;    
+        left: -35px; 
     }
-    .contents {
-        flex: 0 0 151px;
-        padding-top: 23px;
-    }   
     .content-title {
     font-size: 31px;
     line-height: 32px;
@@ -1236,27 +1213,11 @@ h1 span {
     }
     .main2 img {
         width: 160px;
-        position: absolute;
-        left: -18px;
-    }
-    h1 span {
-        font-weight: 600;
-        font-size: 10px;
-        line-height: 20px;        
-        padding-bottom: 2px;
-    }
-    .content-text {
-        font-size: 12px;
-        line-height: 1.4;
-        margin-bottom: 40px;
     }
     .wrap {
         max-width: 280px;
         margin-left: 15px;
         
-    }
-    .content-link, .promo a {
-        padding: 14px 43px;
     }
     .promo {
         padding-top: 70px;
@@ -1302,20 +1263,12 @@ h1 span {
         height: 502px;
     }
 }
-@media (max-width: 360px) {
-    .main2 {
-        width: 100%;
-        height: 325px;
-    }
+@media (max-width: 360px) {    
     .main2 img {
         width: 320px;
         left: -12px;
         top: 32px;    
-    }
-    .contents {
-        flex: 0 0 151px;
-        padding-top: 23px;
-    }   
+    }  
     .content-title {
     font-size: 31px;
     line-height: 32px;
@@ -1333,24 +1286,10 @@ h1 span {
         position: absolute;
         left: -18px;
     }
-    h1 span {
-        font-weight: 600;
-        font-size: 10px;
-        line-height: 20px;        
-        padding-bottom: 2px;
-    }
-    .content-text {
-        font-size: 12px;
-        line-height: 1.4;
-        margin-bottom: 40px;
-    }
     .wrap {
         max-width: 280px;
         margin-left: 15px;
         
-    }
-    .content-link, .promo a {
-        padding: 14px 43px;
     }
     .promo {
         padding-top: 70px;
@@ -1407,13 +1346,6 @@ h1 span {
 }
 @media (max-width: 320px) {
     /* ---- Главная ---- */
-    .main2 {
-        background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
-        display: flex;
-        width: 100%;
-        height: 325px;
-        position: relative;
-    }
     .main2 img {
         width: 320px;
         left: -12px;
@@ -1438,7 +1370,7 @@ h1 span {
     .main2 img {
         width: 160px;
         position: absolute;
-        left: -18px;
+        left: -41px;
     }
     h1 span {
         font-weight: 600;
@@ -1446,18 +1378,9 @@ h1 span {
         line-height: 20px;        
         padding-bottom: 2px;
     }
-    .content-text {
-        font-size: 12px;
-        line-height: 1.4;
-        margin-bottom: 40px;
-    }
     .wrap {
         max-width: 280px;
-        margin-left: 15px;
-        
-    }
-    .content-link, .promo a {
-        padding: 14px 43px;
+        margin-left: 15px;        
     }
     .promo {
         padding-top: 70px;
