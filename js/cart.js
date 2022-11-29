@@ -14,9 +14,9 @@
 function addCart() {
     // addCart Добавление карточек товаров
 
+    let totalPriceHiro = document.querySelector('.button-text');
     // ищем карточки в диве .goods ".card".
     const cards = document.querySelectorAll('.menu-grid-item'),
-    
     // ищем оболочку корзины
     // ищем карман корзины 
     cartWrapper = document.querySelector('.cart-wrapper'),
@@ -50,11 +50,16 @@ function addCart() {
         
         // считаем сумму товара 
         const showData = () => {
+            // ищем корзину
             const cardsCart = cartWrapper.querySelectorAll('.card'),
             // ищем цены в товара в карточке
-                cardsPrice = cartWrapper.querySelectorAll('.menu-grid-price'),
-                cartTotal = document.querySelector('.button-text');
+                cardPrice = document.querySelectorAll('.menu-grid-price'),
+                // ищем спан корзины 
+                cartTotal = document.querySelector('.cart-total span');
+                let buttonCount = document.querySelector('.button-count');
+                
             let sum = 0;
+            
             
             countGoods.textContent = cardsCart.length;
             if (cardsCart.length !== 0) {
@@ -62,11 +67,13 @@ function addCart() {
             } else {
                 cartWrapper.appendChild(cartEpmty);
             }
-            cardsPrice.forEach((cardPrice) => {
+            cardPrice.forEach((cardPrice) => {
                 let price = parseFloat(cardPrice.textContent);
                 sum += price;
             });
             cartTotal.textContent = sum;
+            totalPriceHiro = cartTotal;
+            buttonCount = countGoods;
         }
     }
     addCart()
