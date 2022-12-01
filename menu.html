@@ -10,11 +10,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700;800;900&family=Open+Sans:wght@400;600;700;800&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="style/normalize.css">
-        <link rel="stylesheet" href="style/style.css">
-        <link rel="android-chrome-icon" type="image/png" sizes="192x192" href="img/favicon/android-chrome-192x192.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-        <link rel="android-chrome-icon" type="image/png" sizes="152x152" href="img/favicon/android-chrome-512x512.png">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="android-chrome-icon" type="image/png" sizes="192x192" href="img/favicon/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="android-chrome-icon" type="image/png" sizes="152x152" href="img/favicon/android-chrome-512x512.png">
     <link rel="android-chrome-icon" type="image/png" sizes="150x150" href="img/favicon/mstile-150x150.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon.ico">
@@ -50,7 +50,7 @@
                 <button type="button" class="button">
                     <span class="button-item">
                         <img src="img/cart.svg" alt="корзина">
-                        <span class="button-count">5</span>
+                        <span class="button-count">0</span>
                     </span>
                     <span class="button-text">0 руб</span>
                 </button>
@@ -269,23 +269,20 @@
         <button class="burger-close" onclick="closeModal()"></button>
     </div>
 
-    <!-- sjjs  -->
-    <div class="_modal " data-modal="modal-1">
-        <div class="modal-bg cart">
-            <div class="modal-body cart-wrapper">
-                <button class="modal-close">
+    <!-- корзина  -->
+    <div class="cart _modal" data-modal="modal-1">
+        <div class="cart-body">
+            <div class="modal-body h">
+                <button class="cart-close modal-close">
                 </button>
-                <div class="modal-content modal-callback">
-                    <div class="modal-callback__title">Корзина</div>
-                    <div class="modal-callback__text cart-wrapper">
-                        <div class="cart-total">
-                            Общая сумма: <span>0</span>  руб
-                        </div>
-                        <div id="cart-empty">
-                            Ваша корзина пока пуста
-                        </div>
+                <div class="cart-title">Корзина <div class="cart-total">Общая сумма: <span>0</span> руб</div></div>
+                
+                <div class="cart-wrapper">
+                    <div id="cart-empty">
+                        Ваша корзина пока пуста
                     </div>
                 </div>
+                <button type="button" class="btn cart-btn banner-link">Оформить заказ</button>
             </div>
         </div>
     </div>
