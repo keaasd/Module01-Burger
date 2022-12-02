@@ -2,13 +2,36 @@
 const modal = document.querySelector('.cart');
 const modalClose = document.querySelector('.modal-close');
 const buttonCart = document.querySelector('.button'); // кнопка корзины
+// const modalBody = document.querySelector('.modal-body');
 
 buttonCart.addEventListener('click', () => {
     modal.classList.add('visibility');
+
 });
-modalClose.addEventListener('click', () => {
-    modal.classList.remove('visibility');
-});
+
+const getCloseModal = () => {
+    // найти модальное окно и её боди
+
+    const modal = document.querySelector('.cart');
+    modal.addEventListener('click', (e) => {
+        if (e.target.classList.contains('cart-body')){
+            modal.classList.remove('visibility');
+        }
+
+        modalClose.addEventListener('click', (e) => {
+            modal.classList.remove('visibility');
+        
+        });
+
+        // if (!e.target.closest('.modal-body')) {
+        //     modal.classList.remove('visibility');
+        // }
+        // if (e.target.closest('.modal-close')) {
+        //     modal.classList.remove('visibility');
+        // }
+    })
+};
+getCloseModal();
 
 
 // addCart Добавление карточек товаров
@@ -40,7 +63,7 @@ function addCart() {
         const cardsCart = cartWrapper.querySelectorAll('.menu-grid-item');
         const cartCount = document.querySelector('.button-count'); // счетчик
         cartCount.textContent = cardsCart.length;
-        
+
         if (cardsCart.length === 0) {
             cartWrapper.appendChild(cartEmpty);
         }
